@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Comienzo del menu de navegacion */
+
+.menu-superior {
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    margin-top: 0;
+    padding-right: 10%;
+    box-shadow: 5px 0 20px gray  ;
+}
+
+.list-menu{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: aliceblue;
+    
+       
+}
+
+.elemento-menu{
+    margin-right: 20px;
+    list-style: none;
+    
+}
+
+.elemento-menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.elemento-menu a:visited{
+    color:white;
+}
+
+.elemento-menu a:hover{
+    color: black;
+}
+
+
+.boton-contacto{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+.elemento-boton-contacto{
+    list-style: none;
+    color: white;
+}
+
+.elemento-boton-contacto a{
+    text-decoration: none;
+    color: beige;
+}
+
+.elemento-boton-contacto a:visited{
+    color: white;
+}
+
+.boton-contacto:hover{
+    background-color: rgb(153, 148, 148);
+    transition: 0.4s;
+}
+
+/* Final del menú de navegación */
+
+/* Comienzo de la sección de presentación */
+
+.presentacion{
+    height: 700px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;     
+    
+}
+
+.saludo{
+    width: 500;   
+}
+
+.saludo h1{
+    font-size: 42px;
+}
+.hola{
+ font-size: 34px;
+}
+
+.saludo p{
+    font-size: 21px;
+}
+
+.image-woman-contenedor{
+    height: 500px;
+    width: 600px;
+}
+.image-woman{
+    height: 500px;
+    width: 600px;
+}
+
+.buttom-loquehago{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 2em;
+}
+
+.buttom-loquehago a{
+    text-decoration: none;
+    
+}
+
+.buttom-loquehago a:visited{
+    color: white;
+}
+
+.buttom-loquehago:hover{
+    background-color: rgb(153, 148, 148);
+    transition: 0.4s;
+
+}
+
+/* Final de la sección de presentación */
+
+/* Comienzo de la sección de conocimientos */
+
+.conocimientos{
+    height:900px ;
+    width: 100%;
+    background-color: rgb(227, 221, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezado h2{
+    font-size: 42px;
+}
+
+.encabezado p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+}
+.skills{
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills-item{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(244, 237, 237) ;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+.skills-item p{
+    margin-top: 20px;
+}
+
+.skills-item:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    color: brown;
+}
+
+/* Final de la sección de conocimientos */
+
+/* Comienzo de la sección de cita */
+
+.quote{
+    height: 500px;
+    width: 100%;
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+
+.fa-quote-right{
+ color: antiquewhite;
+}
+
+.cita{
+    color: white;
+    font-size: 21px ;
+    text-align: center;
+}
+
+.autor{
+    color: aliceblue;
+    font-size: 28px;
+}
+/* Final de sección de cita  */
+
+/* Comienzo de la sección de proyectos */
+
+.proyectos{
+    height: 1200px;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-proyect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-proyect h2{
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.title-proyect p{
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.card-proyects{
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    
+}
+
+.card-proyects a{
+    text-decoration: none;
+}
+
+.card-proyects a:visited{
+    color: black;
+}
+
+.card-proyect{
+    height: 300px;
+    width:300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(244, 237, 237) ;
+    border: 1px solid gray;
+    border-radius: 5%;
+    color: black;
+}
+
+.card-proyect img{
+    height: 80%;
+    width: 80%;
+}
+
+.card-proyect h3{
+    font-size: 21px;
+}
+
+.card-proyect:hover{
+    border: 1px solid black;
+    color: blueviolet;
+}
+
+/* Final de la sección de proyectos */
+
+/* Comienzo de sección de contactos */
+
+.contactos{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(243, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactos-contenedor{
+    height: 80%;
+    width: 80%;
+    background-color: beige;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10% ;
+}
+
+/* Final de la sección de contactos */
