@@ -91,9 +91,6 @@
     
 }
 
-.saludo{
-    width: 500;   
-}
 
 .saludo h1{
     font-size: 42px;
@@ -111,8 +108,8 @@
     width: 600px;
 }
 .image-woman{
-    height: 500px;
-    width: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .buttom-loquehago{
@@ -330,7 +327,70 @@
     border-radius: 5px 5px 5px 5px;
     display: flex;
     justify-content: space-evenly;
-    padding:10% ;
+    align-items: center;
+    
 }
+
+.medios{
+    height:90%;
+    width: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.medios h2{
+    font-size: 42px;
+
+}
+
+.medios p{
+    margin-top: 10%;
+    font-size: 19px;
+
+}
+
+.medios-list{
+    margin-top: 30px;
+}
+
+.medios-list1{
+    display: flexbox;
+    flex-direction: column;
+    
+}
+
+.medios-list-item{
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+.medios-list-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.medios-list-item a:visited{
+    color: black;
+}
+
+.medios-list-item a:hover{
+    color: darkviolet;
+}
+
+
+.formulario{
+    height: 90%;
+    width: 45%;
+    background-color: white;
+
+}
+
+.formulario h2{
+    font-size: 42px;
+}
+
 
 /* Final de la sección de contactos */
