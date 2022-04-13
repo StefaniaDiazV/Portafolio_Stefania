@@ -394,3 +394,59 @@
 
 
 /* Final de la sección de contactos */
+
+
+ /* Comienzo del footer */
+
+ footer{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .footer-menu{
+    width: auto;
+    height: 80px;
+    display: flex;
+    color: aliceblue;
+    
+       
+}
+
+.footer-menu li{
+    margin-right: 20px;
+    list-style: none;
+    
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-menu a:visited{
+    color:white;
+}
+
+.footer-menu a:hover{
+    color: black;
+}
+
+.redes{
+    width: auto;
+    height: 80px;
+    display: flex;
+    color: aliceblue;
+}
+
+.redes li{
+    margin-right: 20px;
+    list-style: none;
+}
+
+/* Final del footer */
