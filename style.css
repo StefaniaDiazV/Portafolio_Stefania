@@ -23,8 +23,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: aliceblue;
-    
+    color: aliceblue;    
        
 }
 
@@ -367,9 +366,7 @@
     padding: 5px;
     list-style: none;
     margin-bottom: 5%;
-    
-    
-
+        
 }
 
 .medios-list-item a{
@@ -438,6 +435,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;      
+}
+
+.margin10{
+    margin-right: 10px;
 }
 
 .form-email{
@@ -541,6 +542,25 @@
 .redes li{
     margin-right: 20px;
     list-style: none;
+}
+
+.redes i{
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: cornsilk;
+    color: blueviolet;
+   
+}
+
+.redes i:hover{
+    background-color: blueviolet;
+    border: 1px solid white;
+    color: white;
+}
+
+.redes i:active{
+    box-shadow: 0 0 20px 1px white;
 }
 
 /* Final del footer */
