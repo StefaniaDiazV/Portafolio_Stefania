@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -9,7 +12,7 @@
 /* Comienzo del menu de navegacion */
 
 .menu-superior {
-    height: 80px;
+    height: 5rem;
     width: 100%;
     background-color: gray;
     position: fixed;
@@ -19,18 +22,18 @@
 }
 
 .list-menu{
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: aliceblue;    
-       
+    color: aliceblue;
+
 }
 
 .elemento-menu{
-    margin-right: 20px;
+    margin-right: 3rem;
     list-style: none;
-    
+
 }
 
 .elemento-menu a{
@@ -48,13 +51,13 @@
 
 
 .boton-contacto{
-    height: 40px;
-    width: 100px;
-    border-radius: 50px 50px 50px 50px;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 2rem;
     background-color: dimgrey;
     display: flex;
     justify-content: center;
-    align-items: center;     
+    align-items: center;
 }
 
 .elemento-boton-contacto{
@@ -81,30 +84,34 @@
 /* Comienzo de la sección de presentación */
 
 .presentacion{
-    height: 700px;
     width: 100%;
+    padding: 6rem 1rem;
     background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;     
-    
-}
+    align-items: center;
 
+}
 
 .saludo h1{
-    font-size: 42px;
+    font-size: 5rem;
+    line-height: 4rem;
+
 }
 .hola{
- font-size: 34px;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 .saludo p{
-    font-size: 21px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-top: 2rem;
 }
 
 .image-woman-contenedor{
-    height: 500px;
-    width: 600px;
+    height: 32rem;
+    width: 38rem;
 }
 .image-woman{
     width: 100%;
@@ -112,20 +119,21 @@
 }
 
 .buttom-loquehago{
-    height: 40px;
-    width: 100px;
-    border-radius: 50px 50px 50px 50px;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 2rem;
     background-color: dimgrey;
+    color: white;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .buttom-loquehago a{
     text-decoration: none;
-    
+
 }
 
 .buttom-loquehago a:visited{
@@ -143,8 +151,8 @@
 /* Comienzo de la sección de conocimientos */
 
 .conocimientos{
-    height:900px ;
     width: 100%;
+    padding: 6rem 1rem;
     background-color: rgb(227, 221, 221);
     display: flex;
     flex-direction: column;
@@ -161,39 +169,45 @@
 }
 
 .encabezado h2{
-    font-size: 42px;
+    font-size: 4rem;
 }
 
 .encabezado p{
     text-align: center;
-    margin-top: 20px;
-    font-size: 21px;
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 .skills{
     width: 70%;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 20px;
+    margin-top: 1rem;
     align-items: center;
     justify-content: center;
 
 }
 
 .skills-item{
-    height: 250px;
-    width: 250px;
-    margin: 10px;
+    height: 15rem;
+    width: 15rem;
+    margin: 0.7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color:rgb(244, 237, 237) ;
     border: 1px solid gray;
-    border-radius: 5%;
+    border-radius: 0.6rem;
 }
 
+.skills-item i{
+    font-size: 5rem;
+}
+
+
 .skills-item p{
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 .skills-item:hover{
@@ -207,7 +221,7 @@
 /* Comienzo de la sección de cita */
 
 .quote{
-    height: 500px;
+    padding: 10rem 0.5rem;
     width: 100%;
     background-color: lightslategray;
     display: flex;
@@ -222,20 +236,20 @@
 
 .cita{
     color: white;
-    font-size: 21px ;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .autor{
     color: aliceblue;
-    font-size: 28px;
+    font-size: 1.8rem;
 }
 /* Final de sección de cita  */
 
 /* Comienzo de la sección de proyectos */
 
 .proyectos{
-    height: 1200px;
+    padding: 4rem 0.5rem;
     width: 100%;
     background-color: silver;
     display: flex;
@@ -253,21 +267,19 @@
 }
 
 .title-proyect h2{
-    font-size: 42px;
-    margin-top: 50px;
+    font-size: 4rem;
 }
 
 .title-proyect p{
-    font-size: 21px;
-    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 200;
 }
 
 .card-proyects{
-    width: 75%;
+    width: 74%;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 20px;
-    
+    margin-top: 1rem;
 }
 
 .card-proyects a{
@@ -279,9 +291,9 @@
 }
 
 .card-proyect{
-    height: 300px;
-    width:300px;
-    margin: 10px;
+    height: 19rem;
+    width: 19rem;
+    margin: 0.7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,7 +310,7 @@
 }
 
 .card-proyect h3{
-    font-size: 21px;
+    font-size: 1.2rem;
 }
 
 .card-proyect:hover{
@@ -311,8 +323,8 @@
 /* Comienzo de sección de contactos */
 
 .contactos{
-    height: 800px;
     width: 100%;
+    padding: 5rem 1rem;
     background-color: rgb(243, 232, 232);
     display: flex;
     align-items: center;
@@ -320,28 +332,28 @@
 }
 
 .contactos-contenedor{
-    height: 80%;
+    height: 100%;
     width: 80%;
     background-color: beige;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .medios{
-    height:90%;
+    height:100%;
     width: 45%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5%;
+    padding: 6%;
 }
 
 .medios h2{
-    font-size: 42px;
+    font-size: 3rem;
 
 }
 
@@ -358,7 +370,7 @@
 .medios-list1{
     display:flex;
     flex-direction: column;
-    
+
 }
 
 .medios-list-item{
@@ -366,7 +378,7 @@
     padding: 5px;
     list-style: none;
     margin-bottom: 5%;
-        
+
 }
 
 .medios-list-item a{
@@ -384,16 +396,16 @@
 
 .medios-list-item i{
     font-size: 21px;
-    color: darkviolet;  
+    color: darkviolet;
     padding: 2%;
-    border: 50%;        
+    border: 50%;
 }
 
 .medios-list-item i:hover{
     background-color: blueviolet;
     color: white;
     padding: 2%;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 .medios-list-item:active{
@@ -403,38 +415,39 @@
 
 
 .formulario{
-    height: 90%;
+    height: 100%;
     width: 45%;
     background-color: white;
+    font-size: 16px;
+    padding: 6%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 4%;
-    font-size: 16px;    
     
+
 }
 
 .formulario h2{
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 10%;
-    
+
 }
 
 .form-contacto{
     height:100%;
-    width: 100%;  
+    width: 100%;
     padding: 1%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 1.2rem;
     font-weight: bolder;
-  
+
 }
 .nombre-apellido{
     width: 100%;
     display: flex;
-    flex-direction: row;      
+    flex-direction: row;
 }
 
 .margin10{
@@ -456,30 +469,30 @@
     border-radius: 20px;
     background-color: rgb(249, 244, 249) ;
     transition: 4sg;
-    
+
 }
 
 .form-contacto input:focus{
     outline: unset;
     border: rgb(240, 180, 240) ;
     box-shadow: 0 0 10px 1px rgb(240, 180, 240);
-    
+
 }
 
 .form-contacto textarea:focus{
     outline: unset;
     border: rgb(240, 180, 240) ;
-    box-shadow: 0 0 10px 1px rgb(240, 180, 240);   
+    box-shadow: 0 0 10px 1px rgb(240, 180, 240);
 }
 
-.btn{ 
+.btn{
    height: 40px;
    width: 100px;
    background-color:grey;
    border-radius: 20px;
    color: white;
    border: grey;
-}   
+}
 
 
 .btn:hover{
@@ -509,14 +522,14 @@
     height: 80px;
     display: flex;
     color: aliceblue;
-    
-       
+
+
 }
 
 .footer-menu li{
     margin-right: 20px;
     list-style: none;
-    
+
 }
 
 .footer-menu a{
@@ -550,7 +563,7 @@
     border-radius: 50%;
     background-color: cornsilk;
     color: blueviolet;
-   
+
 }
 
 .redes i:hover{
