@@ -7,7 +7,9 @@
     font-size: 16px;      
 }
 
-/* Comienzo del menu de navegacion */
+ /* ****************************************
+        COMIENZO DEL MENÚ DE NAVEGACIÓN
+    **************************************** */
 
 .menu-superior {
     height: 5rem;
@@ -19,7 +21,7 @@
     box-shadow: 5px 0 20px gray;
 }
 
-.list-menu{
+.menu-superior-lista{
     height: 5rem;
     display: flex;
     justify-content: flex-end;
@@ -32,16 +34,16 @@
     list-style: none;
 }
 
-.elemento-menu a{
+.menu-superior-link{
     text-decoration: none;
     color: aliceblue;
 }
 
-.elemento-menu a:visited{
+.menu-superior-link:visited{
     color:white;
 }
 
-.elemento-menu a:hover{
+.menu-superior-link:hover{
     color: black;
 }
 
@@ -61,12 +63,12 @@
     color: white;
 }
 
-.elemento-boton-contacto a{
+.boton-contacto-link{
     text-decoration: none;
     color: beige;
 }
 
-.elemento-boton-contacto a:visited{
+.boton-contacto-link:visited{
     color: white;
 }
 
@@ -75,11 +77,15 @@
     transition: 0.4s;
 }
 
-/* Final del menú de navegación */
+/* ****************************************
+        FINAL DEL MENÚ DE NAVEGACIÓN
+    **************************************** */
 
-/* Comienzo de la sección de presentación */
+/* ******************************************
+        COMIENZO DE LA SECCIÓN PRESENTACIÓN
+    ****************************************** */
 
-.presentacion{
+.seccion-presentacion{
     width: 100%;
     padding: 6rem 1rem;
     background-color: lightgray;
@@ -87,34 +93,33 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
-.saludo h1{
+.saludo{
     font-size: 5rem;
     line-height: 4rem;
 }
 
-.hola{
+.hola-soy{
     font-size: 2rem;
     font-weight: 900;
 }
 
-.saludo p{
+.descripcion{
     font-size: 1.1rem;
     font-weight: 200;
     margin-top: 2rem;
 }
 
-.image-woman-contenedor{
+.contenedor-imagen-mujer{
     height: 32rem;
     width: 38rem;
 }
 
-.image-woman{
+.imagen-mujer{
     width: 100%;
     height: 100%;
 }
 
-.buttom-loquehago{
+.boton-lo-que-hago{
     height: 3rem;
     width: 12rem;
     border-radius: 2rem;
@@ -127,24 +132,28 @@
     margin-top: 2rem;
 }
 
-.buttom-loquehago a{
+.boton-link{
     text-decoration: none;
 }
 
-.buttom-loquehago a:visited{
+.boton-link:visited{
     color: white;
 }
 
-.buttom-loquehago:hover{
+.boton-lo-que-hago:hover{
     background-color: rgb(153, 148, 148);
     transition: 0.4s;
 }
 
-/* Final de la sección de presentación */
+/* ******************************************
+        FINAL DE LA SECCIÓN PRESENTACIÓN
+    ****************************************** */
 
-/* Comienzo de la sección de conocimientos */
+/* *********************************************
+        COMIENZO DE LA SECCIÓN DE CONOCIMIENTOS
+    ******************************************** */
 
-.conocimientos{
+.seccion-conocimientos{
     width: 100%;
     padding: 6rem 1rem;
     background-color: rgb(227, 221, 221);
@@ -154,7 +163,7 @@
     justify-content: center;
 }
 
-.encabezado{
+.contenedor-titulo-seccion{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -162,18 +171,18 @@
     justify-content: center;
 }
 
-.encabezado h2{
+.titulo-seccion{
     font-size: 4rem;
 }
 
-.encabezado p{
+.parrafo-seccion{
     text-align: center;
     font-weight: 200;
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
 
-.skills{
+.contenedor-conocimientos{
     width: 70%;
     display: flex;
     flex-flow: row wrap;
@@ -182,7 +191,7 @@
     justify-content: center;
 }
 
-.skills-item{
+.tarjeta-conocimientos{
     height: 15rem;
     width: 15rem;
     margin: 0.7rem;
@@ -195,27 +204,31 @@
     border-radius: 0.6rem;
 }
 
-.skills-item i{
+.icono-conocimientos{
     font-size: 5rem;
 }
 
 
-.skills-item p{
+.tarjeta-titulo{
     margin-top: 1rem;
 }
 
-.skills-item:hover{
+.tarjeta-conocimientos:hover{
     border: 1px solid black;
     cursor: pointer;
     color: brown;
 }
 
-/* Final de la sección de conocimientos */
+/* *********************************************
+        FINAL DE LA SECCIÓN DE CONOCIMIENTOS
+    ******************************************** */
 
-/* Comienzo de la sección de cita */
+/* *********************************************
+        COMIENZO DE LA SECCIÓN DE CITA
+    ******************************************** */    
 
-.quote{
-    padding: 10rem 0.5rem;
+.seccion-cita{
+    padding: 7rem 0.5rem;
     width: 100%;
     background-color: lightslategray;
     display: flex;
@@ -224,14 +237,17 @@
     flex-direction: column;
 }
 
-.fa-quote-right{
- color: antiquewhite;
+.icono-cita{
+    font-size: 7rem;
+    color: antiquewhite;
+    margin-bottom: 2rem;
 }
 
 .cita{
     color: white;
     font-size: 1.5rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .autor{
@@ -239,11 +255,15 @@
     font-size: 1.8rem;
 }
 
-/* Final de sección de cita  */
+/* *********************************************
+        FINAL DE LA SECCIÓN DE CITA
+    ******************************************** */    
 
-/* Comienzo de la sección de proyectos */
+/* *********************************************
+        COMIENZO DE LA SECCIÓN DE PROYECTOS
+    ******************************************** */    
 
-.proyectos{
+.seccion-proyectos{
     padding: 4rem 0.5rem;
     width: 100%;
     background-color: silver;
@@ -253,24 +273,7 @@
     justify-content: center;
 }
 
-.encabezado{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.title-proyect h2{
-    font-size: 4rem;
-}
-
-.title-proyect p{
-    font-size: 1.1rem;
-    font-weight: 200;
-}
-
-.card-proyects{
+.contenedor-proyectos{
     width: 90%;
     display: flex;
     flex-flow: row wrap;
@@ -279,15 +282,15 @@
     justify-content: center;
 }
 
-.card-proyects a{
+.proyectos-link{
     text-decoration: none;
 }
 
-.card-proyects a:visited{
+.proyectos-link:visited{
     color: black;
 }
 
-.card-proyect{
+.tarjeta-proyecto{
     height: 19rem;
     width: 19rem;
     margin: 0.7rem;
@@ -301,26 +304,29 @@
     color: black;
 }
 
-
-.card-proyect img{
+.imagen-proyecto{
     height: 80%;
     width: 80%;
 }
 
-.card-proyect h3{
+.proyectos-titulo{
     font-size: 1.2rem;
 }
 
-.card-proyect:hover{
+.tarjeta-proyecto:hover{
     border: 1px solid black;
     color: blueviolet;
 }
 
-/* Final de la sección de proyectos */
+/* *********************************************
+        FINAL DE LA SECCIÓN DE PROYECTOS
+    ******************************************** */    
 
-/* Comienzo de sección de contactos */
+/* *********************************************
+        COMIENZO DE LA SECCIÓN DE CONTACTOS
+    ******************************************** */    
 
-.contactos{
+.seccion-contactos{
     width: 100%;
     padding: 10rem 8rem;
     background-color: rgb(243, 232, 232);
@@ -338,7 +344,7 @@
     border: 1px solid gainsboro;
 }
 
-.medios{
+.ficha-redes-sociales{
     height:36rem;
     width: 50%;
     background-color: white;
@@ -350,81 +356,83 @@
     
 }
 
-.medios h2{
+.titulo-redes, .titulo-formulario{
     font-size: 3rem;
+    margin-bottom: 1.5rem;
+   
 }
 
-.medios p{
+.parrafo-redes{
     font-size: 1.1rem;
 }
 
-.medios-list{
+.contenedor-lista-redes{
     margin-top: 2rem;
 }
 
-.medios-list1{
+.lista-redes{
     display:flex;
     flex-direction: column;
 }
 
-.medios-list-item{
-    border-radius: 1rem;
-    padding: 0.2rem;
+.elemento-lista-redes{
+    border-radius: 2rem;
+    padding: 0.5rem 0.5rem ;
     list-style: none;
-    margin-bottom: 2%;    
+    margin-bottom: 1%; 
+    font-size: 1.1rem;  
+    
 }
 
-.medios-list-item a{
+.link-redes{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: black;
 }
 
-.medios-list-item a:visited{
+.link-redes:visited{
     color: black;
 }
 
-.medios-list-item i{
+.icono-redes{
     font-size: 1.5rem;
     color: darkviolet;
     padding: 2%;
     border: 2rem;
+    margin-right: 0.5rem;
+    
 }
 
-.medios-list-item:active{
+.elemento-lista-redes:active{
     border: violet;
     box-shadow: 0 0 10px 1px rgb(240, 180, 240);
 }
 
-.medios-list-item:hover i{
+.elemento-lista-redes:hover .icono-redes{
     background-color: blueviolet;
     color: white;
     padding: 2%;
     border-radius: 50%;
 }
 
-.medios-list-item:hover a{
+.elemento-lista-redes:hover .link-redes{
     color: darkorchid ;
 }
 
-.formulario{
+
+.contenedor-formulario{
     height: 36rem;
     width: 50%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 2rem;
+    padding-left: 3rem;
     
 }
 
-.formulario h2{
-    font-size: 3rem;
-    margin-bottom: 10%;
-}
-
-.form-contacto{
+.formulario{
     height:100%;
     width: 100%;
     padding: 1%;
@@ -435,29 +443,29 @@
     font-weight: bolder;
 }
 
-.nombre-apellido{
+.controles-nombre-apellido{
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.margin10{
+.margin06{
     margin-right: 0.6rem;
 }
 
-.form-email{
+.control-email{
     display: flex;
     flex-direction: column;
 }
 
-textarea{
+.formulario-mensaje{
     padding: 0.5rem;
     height: 6rem;
     overflow-y: scroll;
     resize: none;
 }
 
-.form-contacto input:not([type=submit]),  textarea{
+.formulario input:not([type=submit]),  .formulario-mensaje{
     width: 100%;
     margin: 0.6rem 0 0 0;
     font-size: 1rem;
@@ -468,13 +476,13 @@ textarea{
     background-color: rgb(249, 244, 249);    
 }
 
-.form-contacto input:focus{
+.formulario input:focus{
     outline: unset;
     border: rgb(240, 180, 240) ;
     box-shadow: 0 0 10px 1px rgb(240, 180, 240);
 }
 
-.form-contacto textarea:focus{
+.formulario-mensaje:focus{
     outline: unset;
     border: rgb(240, 180, 240) ;
     box-shadow: 0 0 10px 1px rgb(240, 180, 240);
@@ -496,9 +504,13 @@ textarea{
     transition: 0.4s;
 }
 
-/* Final de la sección de contactos */
+/* *********************************************
+        FINAL DE LA SECCIÓN DE CONTACTOS
+    ******************************************** */    
 
- /* Comienzo del footer */
+/* *********************************************
+                COMIENZO DEL FOOTER
+    ******************************************** */        
 
 footer{
     padding: 6rem 1rem;
@@ -517,37 +529,37 @@ footer{
     margin-bottom: 2rem;
 }
 
-.footer-menu li{
+.elemento-footer-menu{
     margin-right: 1rem;
     list-style: none;
 }
 
-.footer-menu a{
+.link-footer-menu{
     text-decoration: none;
     color: aliceblue;
 }
 
-.footer-menu a:visited{
+.link-footer-menu:visited{
     color:white;
 }
 
-.footer-menu a:hover{
+.link-footer-menu:hover{
     color: black;
 }
 
-.redes{
+.footer-redes-list{
     width: auto;
     display: flex;
     color: aliceblue;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
-.redes li{
+.footer-redes-elemento{
     margin-right: 1rem;
     list-style: none;
 }
 
-.redes i{
+.iconos-footer{
     font-size: 1.3rem;
     padding: 0.8rem;
     border-radius: 50%;
@@ -555,17 +567,20 @@ footer{
     color: blueviolet;
 }
 
-.redes i:hover{
+.iconos-footer:hover{
     background-color: blueviolet;
     border: 1px solid white;
     color: white;
 }
 
-.redes i:active{
+.iconos-footer:active{
     box-shadow: 0 0 20px 1px white;
 }
 
-/* Final del footer */
+/* *********************************************
+                FINAL DEL FOOTER
+    ******************************************** */        
+
 
 /* -----------------Inicio responsive--------------------------------- */
 
@@ -579,28 +594,28 @@ footer{
         visibility: hidden;
     }
 
-    .presentacion{
+    .seccion-presentacion{
         display: flex;
         flex-direction: column;
         justify-content: center;  
     }
 
-    .saludo{
+    .presentacion-saludo{
         display: flex;
         flex-direction:column;
         align-items: center;
         text-align: center;
     }
 
-    .image-woman-contenedor{
+    .contenedor-imagen-mujer{
       max-width: 25rem;
     }
 
-    .encabezado{
+    .contenedor-titulo-seccion{
         text-align: center;
     }
 
-    .contactos{
+    .contactos-contenedor{
         padding: 10rem 4rem ;
     }
 
@@ -609,25 +624,23 @@ footer{
         flex-direction: column;
     }
 
-    .medios{
+    .ficha-redes-sociales{
         width: 100%;
         height: auto;
         padding-bottom: 3rem;
     }
 
-    .medios-list1{
+    .lista-redes{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .medios-list-item{
-        width: 50%;
+    .elemento-lista-redes{
+        width: 100%;
     }
-
-    
-
-    .formulario{
+   
+    .contenedor-formulario{
         width: 100%;
         height: auto;
     }
@@ -651,24 +664,24 @@ footer{
         visibility: hidden;
     }
 
-    .presentacion{
+    .seccion-presentacion{
         display: flex;
         flex-direction: column;
         justify-content: center;  
     }
 
-    .saludo{
+    .presentacion-saludo{
         display: flex;
         flex-direction:column;
         align-items: center;
         text-align: center;
     }
 
-    .image-woman-contenedor{
+    .contenedor-imagen-mujer{
       max-width: 25rem;
     }
 
-    .encabezado{
+    .contenedor-titulo-seccion{
         text-align: center;
     }
 
@@ -677,11 +690,11 @@ footer{
         flex-direction: column;
     }
 
-    .medios{
+    .ficha-redes-sociales{
         width: 100%;
     }
 
-    .formulario{
+    .contenedor-formulario{
         width: 100%;
     }
 
@@ -689,10 +702,6 @@ footer{
         display: none;
     }
 }
-
-
-
-
 
 
 @media (max-width:399px) {
@@ -705,32 +714,32 @@ footer{
         visibility: hidden;
     }
 
-    .presentacion{
+    .seccion-presentacion{
         display: flex;
         flex-direction: column;
         justify-content: center;  
     }
 
-    .saludo{
+    .presentacion-saludo{
         display: flex;
         flex-direction:column;
         align-items: center;
         text-align: center;
     }
 
-    .image-woman-contenedor{
+    .contenedor-imagen-mujer{
       max-width: 25rem;
     }
 
-    .encabezado{
+    .contenedor-titulo-seccion{
         text-align: center;
     }
 
-    .card-proyects{
+    .contenedor-proyectos{
         width: 100%;
     }
 
-    .card-proyect{
+    .tarjeta-proyecto{
         min-width: 20rem;
         min-height: 20rem;
     }
@@ -741,11 +750,11 @@ footer{
         
     }
 
-    .medios{
+    .ficha-redes-sociales{
         min-width: 15rem;
     }
 
-    .formulario{
+    .contenedor-formulario{
         min-width: 15rem;
     }
 

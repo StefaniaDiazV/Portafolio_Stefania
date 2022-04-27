@@ -21,101 +21,112 @@
   </head>
 
   <body>
-    <!-- Comienzo del menu de navegación -->
+
+    <!-- ***************************************
+            COMIENZO DEL MENÚ DE NAVEGACIÓN
+        *************************************** -->
     <header>
       <nav class="menu-superior">
-        <ul class="list-menu">
+        <ul class="menu-superior-lista">
           <li class="elemento-menu">
-            <a href="#hello">SOBRE MI</a>
+            <a class="menu-superior-link" href="#presentacion">SOBRE MI</a>
           </li>
           <li class="elemento-menu">
-            <a href="#seccion-skills">CONOCIMIENTOS</a>
+            <a class="menu-superior-link" href="#conocimientos">CONOCIMIENTOS</a>
           </li>
           <li class="elemento-menu">
-            <a href="#seccion-proyectos">PROYECTOS</a>
+            <a class="menu-superior-link" href="#proyectos">PROYECTOS</a>
           </li>
           <div class="boton-contacto">
           <li class="elemento-boton-contacto">
-            <a href="#seccion-contactos">CONTACTO</a>  
+            <a class="boton-contacto-link" href="#contactos">CONTACTO</a>  
           </li>
         </div>
         </ul>
       </nav>
     </header>
 
-    <!-- Final del menu de navegación -->
+    <!-- ***************************************
+            FINAL DEL MENÚ DE NAVEGACIÓN
+        *************************************** -->
 
-    <!-- Comienzo de la sección de presentación -->
-    
-    <section id="hello" class="presentacion">
+    <!-- ****************************************
+            COMIENZO DE LA SECCIÓN PRESENTACIÓN
+        ***************************************** -->
+        
+    <section id="presentacion" class="seccion-presentacion">
 
-      <div class="saludo">
-        <h1 ><span class="hola">!Hola! Soy<br></span>Stefania Diaz</h1>
-        <p>Programadora Fronted</p>
-        <div class="buttom-loquehago">
-          <a href="#seccion-proyectos">LO QUE HAGO</a>
+      <div class="presentacion-saludo">
+        <h1 class="saludo" ><span class="hola-soy">!Hola! Soy<br></span>Stefania Diaz</h1>
+        <p class="descripcion">Programadora Fronted</p>
+        <div class="boton-lo-que-hago">
+          <a class="boton-link" href="#proyectos">LO QUE HAGO</a>
         </div>
       </div>
 
-      <div class="image-woman-contenedor">
-        <img class="image-woman" src="images/software_engineer.svg" alt="Programadora">
+      <div class="contenedor-imagen-mujer">
+        <img class="imagen-mujer" src="images/software_engineer.svg" alt="Programadora">
       </div>
 
     </section>
 
-    <!-- Fin de sección la de presentación -->
+    <!-- ****************************************
+            FINAL DE LA SECCIÓN PRESENTACIÓN
+        ***************************************** -->
+    
+    <!-- *******************************************
+            COMIENZO DE LA SECCIÓN DE CONOCIMIENTOS
+        ******************************************** -->
+        
+    <section id="conocimientos" class="seccion-conocimientos">
 
-    <!-- Comienzo de la sección de conocimientos -->
-
-    <section id="seccion-skills" class="conocimientos">
-
-      <div class="encabezado">
-        <h2> Mis conocimientos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <br>
+      <div class="contenedor-titulo-seccion">
+        <h2 class="titulo-seccion"> Mis conocimientos</h2>
+        <p class="parrafo-seccion">Lorem ipsum dolor sit amet, consectetur <br>
           adipisicing elit. Porro ut quis hic voluptatum <br>
           consectetur. Repellat voluptatem corrupti reprehenderit praesentium.</p>
       </div>
 
-      <div class="skills">
+      <div class="contenedor-conocimientos">
 
-        <div class="skills-item">
+        <div class="tarjeta-conocimientos">
         
-          <i class="devicon-html5-plain colored"></i>
-          <p>HTML 5</p>
+          <i class="devicon-html5-plain colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">HTML 5</p>
               
         </div>
 
-        <div class="skills-item">
+        <div class="tarjeta-conocimientos">
 
-          <i class="devicon-css3-plain colored"></i>
-          <p>CSS 3</p>         
-
-        </div>
-
-        <div class="skills-item">
-          
-          <i class="devicon-sass-original colored"></i>
-          <p>Sass</p>
-        </div>
-
-        <div class="skills-item">
-          
-          <i class="devicon-javascript-plain colored"></i>
-          <p>JavaScript</p>
+          <i class="devicon-css3-plain colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">CSS 3</p>         
 
         </div>
 
-        <div class="skills-item">
+        <div class="tarjeta-conocimientos">
           
-          <i class="devicon-react-original colored"></i>
-          <p>React</p>
+          <i class="devicon-sass-original colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">Sass</p>
+        </div>
+
+        <div class="tarjeta-conocimientos">
+          
+          <i class="devicon-javascript-plain colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">JavaScript</p>
+
+        </div>
+
+        <div class="tarjeta-conocimientos">
+          
+          <i class="devicon-react-original colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">React</p>
 
         </div>
                    
-        <div class="skills-item">
+        <div class="tarjeta-conocimientos">
           
-          <i class="devicon-git-plain colored"></i>
-          <p>GIT</p>
+          <i class="devicon-git-plain colored icono-conocimientos"></i>
+          <p class="tarjeta-titulo">GIT</p>
 
         </div>
 
@@ -123,156 +134,169 @@
 
     </section>
 
-    <!-- Final de la sección de conocimientos -->
+    <!-- *******************************************
+            FINAL DE LA SECCIÓN DE CONOCIMIENTOS
+        ******************************************** -->
+    
+    <!-- *******************************************
+            COMIENZO DE LA SECCIÓN DE CITA
+        ******************************************** -->
 
-    <!-- Comienzo de la sección de cita -->
+    <section class="seccion-cita">
 
-    <section class="quote">
-
-      <div><i class="fas fa-quote-right fa-6x"></i></div>
-      <p class="cita">
+      <div><i class="fas fa-quote-right icono-cita"></i></div>
+        
+      <blockquote class="cita">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nemo?<br>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur cumque tenetur animi id,<br>repudiandae veritatis.
-      </p>
+        </blockquote>
+      
       <p class="autor">Someone</p>
 
     </section>
 
-    <!-- Final de sección de cita -->
+    <!-- *******************************************
+            FINAL DE LA SECCIÓN DE CITA
+        ******************************************** -->
+    
+    <!-- *******************************************
+            COMIENZO DE LA SECCIÓN DE PROYECTOS
+        ******************************************** -->
+          
+    <section id="proyectos" class="seccion-proyectos">
 
-    <!-- Comienzo de la sección de proyectos -->
-
-    <section id="seccion-proyectos" class="proyectos">
-
-
-      <div class="encabezado">
-        <h2>Mis Proyectos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt.</p>
+      <div class="contenedor-titulo-seccion">
+        <h2 class="titulo-seccion">Mis Proyectos</h2>
+        <p class="parrafo-seccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt.</p>
       </div>
 
-      <div class="card-proyects">
+      <div class="contenedor-proyectos">
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/portfolio_website.svg">
-            <h3>Portfolio</h3>
+        <a class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/portfolio_website.svg">
+            <h3 class="proyectos-titulo">Portfolio</h3>
           </article>
         </a>
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/buffer.svg">
-            <h3>Generador de memes</h3>
+        <a class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/buffer.svg">
+            <h3 class="proyectos-titulo">Generador de memes</h3>
           </article>
         </a>
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/video_game_night.svg">
-            <h3>Match 3</h3>
+        <a class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/video_game_night.svg">
+            <h3 class="proyectos-titulo">Match 3</h3>
           </article>
         </a>
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/vault.svg">
-            <h3>Controlador de gastos</h3>
+        <a class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/vault.svg">
+            <h3 class="proyectos-titulo">Controlador de gastos</h3>
           </article>
         </a>
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/online_calendar.svg">
-            <h3>Administrador de reuniones</h3>
+        <a class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/online_calendar.svg">
+            <h3 class="proyectos-titulo">Administrador de reuniones</h3>
           </article>
         </a>
 
-        <a href="index.html" target="_blank">
-          <article class="card-proyect">
-            <img src="images/online_organizer.svg">
-            <h3>Todo app</h3>
+        <a  class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/online_organizer.svg">
+            <h3 class="proyectos-titulo">Todo app</h3>
           </article>
         </a>  
-        <a href="index.html" target="_blank">
-          <article class="card-proyect left">
-            <img src="images/home_cinema.svg">
-            <h3>Buscador de películas</h3>
+        <a  class="proyectos-link" href="index.html" target="_blank">
+          <article class="tarjeta-proyecto">
+            <img class="imagen-proyecto" src="images/home_cinema.svg">
+            <h3 class="proyectos-titulo">Buscador de películas</h3>
           </article>
         </a>
       </div>
 
     </section>
 
-    <!-- Final de la sección de proyectos -->
-
-    <!-- Comienzo de la sección de contactos -->
-
-    <section id="seccion-contactos" class="contactos">
+    <!-- *******************************************
+            FINAL DE LA SECCIÓN DE PROYECTOS
+        ******************************************** -->
+    
+    <!-- *******************************************
+            COMIENZO DE LA SECCIÓN DE CONTACTOS
+        ******************************************** -->
+   
+    <section id="contactos" class="seccion-contactos">
 
       <div class="contactos-contenedor" >
-        <div class="medios">
 
-          <h2>Contactame</h2>
-          <p>Lorem ipsum dolor sit amet consectetur
+        <div class="ficha-redes-sociales">
+
+          <h2 class="titulo-redes">Contactame</h2>
+          <p class="parrafo-redes">Lorem ipsum dolor sit amet consectetur
              adipisicing elit. Nam dicta possimus, voluptatem
              consectetur adipisicing elit. Officiis possimus 
              dignissimos modi autem quaerat ullam!</p>
 
-          <div class="medios-list">
-            <ul class="medios-list1">
-              <li class="medios-list-item">
-                <a href="https://www.instagram.com/tita_kl20/" target="_blank">
-                  <i class="fa-brands fa-instagram fa-"></i>
+          <div class="contenedor-lista-redes">
+            <ul class="lista-redes">
+              <li class="elemento-lista-redes">
+                <a class="link-redes" href="https://www.instagram.com/tita_kl20/" target="_blank">
+                  <i class="fa-brands fa-instagram fa- icono-redes"></i>
                   @tita_kl20</a>
               </li>
-              <li class="medios-list-item">
-                <a href="https://github.com/StefaniaDiazV" target="_blank">
-                  <i class="fa-brands fa-github"></i>
+              <li class="elemento-lista-redes">
+                <a class="link-redes" href="https://github.com/StefaniaDiazV" target="_blank">
+                  <i class="fa-brands fa-github icono-redes"></i>
                   StefaniaDiazV</a>
               </li>
-              <li class="medios-list-item"
-              ><a href="https://www.linkedin.com/in/stefania-diaz-valencia-2a75801b4" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+              <li class="elemento-lista-redes"
+              ><a class="link-redes" href="https://www.linkedin.com/in/stefania-diaz-valencia-2a75801b4" target="_blank">
+                <i class="fa-brands fa-linkedin icono-redes"></i>
                 StefaniaDiaz</a>
               </li>
-              <li class="medios-list-item">
-              <a href="mailto:stefaniadiazvalencia@gmail.com" target="_blank">
-                <i class="fa-solid fa-envelope"></i>
+              <li class="elemento-lista-redes">
+              <a class="link-redes" href="mailto:stefaniadiazvalencia@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope icono-redes"></i>
                 stefaniadiazvalencia@gmail.com</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="formulario">
+        <div class="contenedor-formulario">
 
-          <h2>Escribeme</h2>
+          <h2 class="titulo-formulario">Escribeme</h2>
 
-          <form action="" class="form-contacto">
+          <form action="" class="formulario">
             
-            <div class="nombre-apellido">
+            <div class="controles-nombre-apellido">
 
-              <div class="form-nombre margin10">
+              <div class="control-nombre margin06">
                 <label for="nombre">Nombre*</label>
                 <input id="nombre" type="text" placeholder="p.ej.:Ada" maxlength="999" required >
               </div>
 
-              <div class="form-apellido">
+              <div class="control-apellido">
                 <label for="apellidos">Apellidos*</label>
                 <input id="apellidos" type="text" placeholder="p.ej.:Lovelace" maxlength="999" required>
               </div>
 
             </div>
           
-            <div class="form-email">
+            <div class="control-email">
 
               <label for="email">Email*</label>
               <input id="email" type="email" placeholder="p.ej.:ada.lovelace@gmail.com" required>
 
             </div>
 
-
               <p>Mensaje *</p>
-              <textarea name="mensaje" cols="25" rows="8" maxlength="999" placeholder="Escriba un mensaje aqui" required></textarea>
+              <textarea class="formulario-mensaje" name="mensaje" cols="25" rows="8" maxlength="999" placeholder="Escriba un mensaje aqui" required></textarea>
 
               <input class="btn" type="submit" value="Enviar">  
             
@@ -283,52 +307,57 @@
       </div>
     </section>
  
-    <!-- Final de la sección de contactos -->
+    <!-- *******************************************
+            FINAL DE LA SECCIÓN DE CONTACTOS
+        ******************************************** -->
     
-    <!-- Comienzo del footer -->
-
+    <!-- *******************************************
+            COMIENZO DEL FOOTER
+        ******************************************** -->
+    
     <footer>
       <nav>
         <ul class="footer-menu"> 
-          <li>
-            <a href="#hello">SOBRE MI</a>
+          <li class="elemento-footer-menu">
+            <a class="link-footer-menu" href="#seccion-presentacion">SOBRE MI</a>
           </li>
-          <li>
-            <a href="#seccion-skills">CONOCIMIENTOS</a>
+          <li class="elemento-footer-menu">
+            <a class="link-footer-menu" href="#seccion-conocimientos">CONOCIMIENTOS</a>
           </li>
-          <li>
-            <a href="#seccion-proyectos">PROYECTOS</a>
+          <li class="elemento-footer-menu">
+            <a class="link-footer-menu" href="#seccion-proyectos">PROYECTOS</a>
           </li>
-          <li>
-            <a href="#seccion-contactos">CONTACTO</a>
+          <li class="elemento-footer-menu">
+            <a class="link-footer-menu" href="#seccion-contactos">CONTACTO</a>
           </li>
         </ul>
       </nav>
-      <div class="redes">
-        <ul class="redes">
-          <li>
-            <a href="https://www.instagram.com/tita_kl20/" target="_blank">
-            <i class="fa-brands fa-instagram fa-"></i></a>
+      <div class="footer-redes">
+        <ul class="footer-redes-list">
+          <li class="footer-redes-elemento">
+            <a class="link-footer-redes" href="https://www.instagram.com/tita_kl20/" target="_blank">
+            <i class="fa-brands fa-instagram fa- iconos-footer"></i></a>
           </li>
-          <li>
+          <li class="footer-redes-elemento">
             <a href="https://www.linkedin.com/in/stefania-diaz-valencia-2a75801b4" target="_blank">
-              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-linkedin iconos-footer"></i>
               </a>
           </li>
-          <li><a href="https://github.com/StefaniaDiazV" target="_blank">
-            <i class="fa-brands fa-github"></i>
+          <li class="footer-redes-elemento"><a href="https://github.com/StefaniaDiazV" target="_blank">
+            <i class="fa-brands fa-github iconos-footer"></i>
             </a>
           </li>
-          <li><a href="mailto:stefaniadiazvalencia@gmail.com" target="_blank" >
-              <i class="fa-solid fa-envelope"></i>
+          <li class="footer-redes-elemento"><a href="mailto:stefaniadiazvalencia@gmail.com" target="_blank" >
+              <i class="fa-solid fa-envelope iconos-footer"></i>
               </a> </li>
         </ul>
       </div>
       <p>Hecho con ❤️ por Stefa</p>
     </footer>
 
-    <!-- Final del footer -->
-     
+    <!-- *******************************************
+            FINAL DEL FOOTER
+        ******************************************** -->
     
   </body>
 </html>
