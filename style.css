@@ -114,6 +114,7 @@
 .contenedor-imagen-mujer{
     height: 32rem;
     width: 38rem;
+    text-align: center;
 }
 
 .imagen-mujer{
@@ -121,11 +122,21 @@
     height: 100%;
 }
 
+.fuente-imagen{
+   text-decoration: none;
+   color: #2f2e41;
+}
+
+.fuente-imagen:visited{
+    color: #2f2e41;
+}
+
 .boton-lo-que-hago{
     height: 3rem;
     width: 12rem;
     border-radius: 2rem;
     background-color:#920945;
+    border: #920945 ;
     color:#F8F7F3;
     font-size: 2rem;
     display: flex;
