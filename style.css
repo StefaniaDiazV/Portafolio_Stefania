@@ -87,7 +87,7 @@
 
 .seccion-presentacion{
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 6rem 1.5rem;
     background-color:#F8F7F3;
     display: flex;
     justify-content: space-evenly;
@@ -107,7 +107,6 @@
 
 .descripcion{
     font-size: 1.1rem;
-    font-weight: 200;
     margin-top: 2rem;
 }
 
@@ -147,6 +146,7 @@
 
 .boton-link{
     text-decoration: none;
+    color: #F8F7F3;
 }
 
 .boton-link:visited{
@@ -168,7 +168,7 @@
 
 .seccion-conocimientos{
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 6rem 1.5rem;
     background-color:#F0E6DF;
     display: flex;
     flex-direction: column;
@@ -186,11 +186,15 @@
 
 .titulo-seccion{
     font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 1.5rem;
+    
+    
+    
 }
 
 .parrafo-seccion{
     text-align: center;
-    font-weight: 200;
     font-size: 1.1rem;
     margin-bottom: 1rem;
 }
@@ -250,7 +254,7 @@
     ******************************************** */    
 
 .seccion-cita{
-    padding: 7rem 0.5rem;
+    padding: 7rem 1.5rem;
     width: 100%;
     background-color: #920945;
     display: flex;
@@ -286,7 +290,7 @@
     ******************************************** */    
 
 .seccion-proyectos{
-    padding: 4rem 0.5rem;
+    padding: 4rem 1.5rem;
     width: 100%;
     background-color: #f0e6df;
     display: flex;
@@ -301,7 +305,7 @@
     flex-flow: row wrap;
     margin-top: 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
 
 .proyectos-link{
@@ -318,7 +322,7 @@
     margin: 0.7rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
     justify-content: center;
     background-color:  #F8F7F3 ;
     border: 1px solid #d2ccc8;
@@ -535,7 +539,7 @@
     ******************************************** */        
 
 footer{
-    padding: 6rem 1rem;
+    padding: 6rem 1.5rem;
     width: 100%;
     background-color:#920945;
     display: flex;
@@ -635,7 +639,7 @@ footer{
     .contenedor-titulo-seccion{
         text-align: center;
     }
-
+    
     .contactos-contenedor{
         padding: 10rem 4rem ;
     }
@@ -674,7 +678,7 @@ footer{
 @media (max-width:599px) and (min-width:400px) {
 
     *{
-        font-size: 15px;
+        font-size: 15.5px;
     }
 
     section{
@@ -699,11 +703,21 @@ footer{
     }
 
     .contenedor-imagen-mujer{
-      max-width: 25rem;
+         max-width: 25rem;
     }
 
     .contenedor-titulo-seccion{
         text-align: center;
+    }
+
+    .titulo-seccion{
+        overflow-wrap: break-word;
+        word-break: normal;
+        hyphens: auto;
+    }    
+
+    .parrafo-seccion{
+        font-size: 1.3rem;
     }
 
     .contactos-contenedor{
@@ -713,10 +727,12 @@ footer{
 
     .ficha-redes-sociales{
         width: 100%;
+        padding-right: 0rem;
     }
 
     .contenedor-formulario{
         width: 100%;
+        padding-left: 0rem;
     }
 
     .footer-menu{
@@ -728,17 +744,18 @@ footer{
 @media (max-width:399px) {
 
     *{
-        font-size: 10px;
+        font-size: 14px;
     }
  
     .menu-superior{
-        visibility: hidden;
+        visibility:hidden;
     }
 
     .seccion-presentacion{
         display: flex;
         flex-direction: column;
         justify-content: center;  
+        padding-top: 10rem;
     }
 
     .presentacion-saludo{
@@ -746,6 +763,15 @@ footer{
         flex-direction:column;
         align-items: center;
         text-align: center;
+    }
+    .titulo-seccion{
+        overflow-wrap: break-word;
+        word-break: normal;
+        hyphens: auto;
+    }    
+
+    .parrafo-seccion{
+        font-size: 1.3rem;
     }
 
     .contenedor-imagen-mujer{
@@ -772,11 +798,13 @@ footer{
     }
 
     .ficha-redes-sociales{
-        min-width: 15rem;
+        width: 100%;
+        padding-right: 0rem;
     }
 
     .contenedor-formulario{
-        min-width: 15rem;
+        width: 100%;
+        padding-left: 0rem;
     }
 
     .footer-menu{
