@@ -93,6 +93,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.presentacion-saludo{
+   padding-left: 3rem ;
+}
+
 .saludo{
     font-size: 5rem;
     line-height: 4rem;
@@ -200,7 +205,7 @@
 }
 
 .contenedor-conocimientos{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     margin-top: 1rem;
@@ -609,7 +614,7 @@ footer{
 
 /* -----------------Inicio responsive--------------------------------- */
 
-@media (max-width:900px) and (min-width:600px){
+@media (max-width:819px) and (min-width:600px){
 
     *{
         font-size: 15px;
@@ -631,6 +636,10 @@ footer{
         align-items: center;
         text-align: center;
     }
+
+    .presentacion-saludo{
+        padding-left: 0rem ;
+     }
 
     .contenedor-imagen-mujer{
       max-width: 25rem;
@@ -702,6 +711,10 @@ footer{
         text-align: center;
     }
 
+    .presentacion-saludo{
+        padding-left: 0rem ;
+    }
+
     .contenedor-imagen-mujer{
          max-width: 25rem;
     }
@@ -741,7 +754,7 @@ footer{
 }
 
 
-@media (max-width:399px) {
+@media (max-width:399px){
 
     *{
         font-size: 14px;
@@ -774,6 +787,10 @@ footer{
         font-size: 1.3rem;
     }
 
+    .presentacion-saludo{
+        padding-left: 0rem ;
+     }
+
     .contenedor-imagen-mujer{
       max-width: 25rem;
     }
@@ -781,7 +798,7 @@ footer{
     .contenedor-titulo-seccion{
         text-align: center;
     }
-
+ 
     .contenedor-proyectos{
         width: 100%;
     }
