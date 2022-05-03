@@ -118,6 +118,9 @@
 .contenedor-imagen-mujer{
     height: 32rem;
     width: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
@@ -192,10 +195,7 @@
 .titulo-seccion{
     font-size: 4rem;
     line-height: 4rem;
-    margin-bottom: 1.5rem;
-    
-    
-    
+    margin-bottom: 1.5rem;         
 }
 
 .parrafo-seccion{
@@ -205,7 +205,9 @@
 }
 
 .contenedor-conocimientos{
-    width: 100%;
+    width: 80%;
+    max-width: 1000px;
+    padding: 0 2rem;
     display: flex;
     flex-flow: row wrap;
     margin-top: 1rem;
@@ -214,8 +216,8 @@
 }
 
 .tarjeta-conocimientos{
-    height: 15rem;
     width: 15rem;
+    padding: 2rem;
     margin: 0.7rem;
     display: flex;
     flex-direction: column;
@@ -612,219 +614,218 @@ footer{
     ******************************************** */        
 
 
-/* -----------------Inicio responsive--------------------------------- */
+/* *********************************************
+                INCIO RESPONSIVE
+********************************************         */
 
-@media (max-width:819px) and (min-width:600px){
+
+@media (min-width:820px) and (max-width:1024px){
 
     *{
         font-size: 15px;
     }
 
-    .menu-superior{
-        visibility: hidden;
+    .seccion-contactos{
+        padding: 10rem 3rem;
     }
 
-    .seccion-presentacion{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-    }
-
-    .presentacion-saludo{
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .presentacion-saludo{
-        padding-left: 0rem ;
-     }
-
-    .contenedor-imagen-mujer{
-      max-width: 25rem;
-    }
-
-    .contenedor-titulo-seccion{
-        text-align: center;
+    .contactos-contenedor{
+        padding: 5rem 3rem;
     }
     
-    .contactos-contenedor{
-        padding: 10rem 4rem ;
-    }
-
-    .contactos-contenedor{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .ficha-redes-sociales{
-        width: 100%;
-        height: auto;
-        padding-bottom: 3rem;
-    }
-
-    .lista-redes{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .elemento-lista-redes{
-        width: 100%;
-    }
-   
-    .contenedor-formulario{
-        width: 100%;
-        height: auto;
-    }
 
 }
 
-
-
-
-@media (max-width:599px) and (min-width:400px) {
-
-    *{
-        font-size: 15.5px;
-    }
-
-    section{
-        padding: 6rem 0;
-    }
-
-    .menu-superior{
-        visibility: hidden;
-    }
-
-    .seccion-presentacion{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-    }
-
-    .presentacion-saludo{
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .presentacion-saludo{
-        padding-left: 0rem ;
-    }
-
-    .contenedor-imagen-mujer{
-         max-width: 25rem;
-    }
-
-    .contenedor-titulo-seccion{
-        text-align: center;
-    }
-
-    .titulo-seccion{
-        overflow-wrap: break-word;
-        word-break: normal;
-        hyphens: auto;
-    }    
-
-    .parrafo-seccion{
-        font-size: 1.3rem;
-    }
-
-    .contactos-contenedor{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .ficha-redes-sociales{
-        width: 100%;
-        padding-right: 0rem;
-    }
-
-    .contenedor-formulario{
-        width: 100%;
-        padding-left: 0rem;
-    }
-
-    .footer-menu{
-        display: none;
-    }
-}
-
-
-@media (max-width:399px){
+@media (min-width:480px) and (max-width:819px){
 
     *{
         font-size: 14px;
     }
- 
+
     .menu-superior{
-        visibility:hidden;
+        visibility: hidden;
     }
 
     .seccion-presentacion{
         display: flex;
         flex-direction: column;
-        justify-content: center;  
+        justify-content: center;
         padding-top: 10rem;
     }
 
     .presentacion-saludo{
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-    .titulo-seccion{
-        overflow-wrap: break-word;
-        word-break: normal;
-        hyphens: auto;
-    }    
-
-    .parrafo-seccion{
-        font-size: 1.3rem;
-    }
-
-    .presentacion-saludo{
-        padding-left: 0rem ;
-     }
-
-    .contenedor-imagen-mujer{
-      max-width: 25rem;
+        padding-left: 0;
+        margin-bottom: 4rem;
     }
 
     .contenedor-titulo-seccion{
         text-align: center;
     }
- 
-    .contenedor-proyectos{
+
+    .titulo-seccion{
+        overflow-wrap: break-word;
+        word-break: normal;
+        hyphens: auto;
+    }
+
+    .contenedor-imagen-mujer{
+        max-width: 100vw;
+    }
+
+    .contenedor-conocimientos{
         width: 100%;
     }
 
-    .tarjeta-proyecto{
-        min-width: 20rem;
-        min-height: 20rem;
+    .tarjeta-conocimientos{
+        width: 21vw;
+        min-width: 11rem;
     }
 
-    .contactos-contenedor{
+   .contenedor-proyectos{
+       width: 100%;
+   }
+
+   .tarjeta-proyecto{
+       width: 30vw;
+       min-width: 17rem;
+       text-align: center;       
+   }
+
+   .seccion-contactos{
+       padding: 10rem 1rem;
+   }
+   
+   .contactos-contenedor{
+       display: flex;
+       flex-direction: column;
+       padding: 0;
+   }
+
+   .ficha-redes-sociales{
+       width: 90vw;
+       height: auto;
+       padding: 1rem; 
+   }
+
+   .lista-redes{
+       display: flex;
+       flex-direction:row;
+       flex-wrap: wrap;
+   }
+
+   .contenedor-formulario{
+       width: 90vw;
+       padding: 1rem;
+      
+   }
+
+   .footer-menu{
+       display: none;
+   }
+
+
+}
+
+@media (max-width:479px) and (min-width:200px){
+
+    *{
+        font-size: 12px;
+    }
+
+    .menu-superior{
+        visibility: hidden;
+    }
+
+    .seccion-presentacion{
         display: flex;
         flex-direction: column;
-        
+        justify-content: center;
+        padding-top: 10rem;
     }
 
-    .ficha-redes-sociales{
+    .presentacion-saludo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .contenedor-titulo-seccion{
+        text-align: center;
+    }
+
+    .titulo-seccion{
+        overflow-wrap: break-word;
+        word-break: normal;
+        hyphens: auto;
+    }
+
+    .parrafo-seccion{
+        font-size: 1.3rem;
+    }
+
+    .contenedor-imagen-mujer{
+        display: flex;
+        align-items: center;
+        width: 100vw;  
+    }
+
+    .imagen-mujer{
+        max-width: 100vw;
+        min-width:4rem ;
+    }
+
+    .contenedor-conocimientos{
         width: 100%;
-        padding-right: 0rem;
     }
 
-    .contenedor-formulario{
-        width: 100%;
-        padding-left: 0rem;
+    .tarjeta-conocimientos{
+        width: 21vw;
+        min-width: 11rem;
     }
 
-    .footer-menu{
-        display: none;
-    }
+   .contenedor-proyectos{
+       width: 100%;
+   }
+
+   .tarjeta-proyecto{
+       width: 60vw;
+       min-width: 11rem;
+       text-align: center;       
+   }
+
+   .seccion-contactos{
+       padding: 10rem 1rem;
+   }
+   
+   .contactos-contenedor{
+       display: flex;
+       flex-direction: column;
+       padding: 0;
+   }
+
+   .ficha-redes-sociales{
+       width: 90vw;
+       padding: 1rem;      
+   }
+
+   .link-redes{
+      word-break: break-all;
+   }
+
+   .contenedor-formulario{
+       width: 90vw;
+       padding: 1rem;
+      
+   }
+
+   .footer-menu{
+       display: none;
+   }
+
 }
