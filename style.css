@@ -224,7 +224,7 @@
     align-items: center;
     justify-content: center;
     background-color: #F8F7F3 ;
-    border: 1px solid #d2ccc8;
+    border: 2px solid #d2ccc8;
     border-radius: 0.6rem;
     transition: 0.2s;
 }
@@ -243,7 +243,7 @@
 }
 
 .tarjeta-conocimientos:hover{
-    border: 1px solid #920945;
+    border: 2px solid #920945;
     cursor: pointer;
     color: #920945;
 }
@@ -335,7 +335,7 @@
     align-items: center ;
     justify-content: center;
     background-color:  #F8F7F3 ;
-    border: 1px solid #d2ccc8;
+    border: 2px solid #d2ccc8;
     border-radius: 5%;
     color: black;
     transition: 0.2s;
@@ -351,7 +351,7 @@
 }
 
 .tarjeta-proyecto:hover{
-    border: 1px solid #920945 ;
+    border: 2px solid #920945 ;
     color:#920945;
 }
 
@@ -497,8 +497,7 @@
 .formulario-mensaje{
     padding: 0.5rem;
     height: 6rem;
-    overflow-y: scroll;
-    resize: none;
+    resize: none;    
 }
 
 .formulario input:not([type=submit]),  .formulario-mensaje{
